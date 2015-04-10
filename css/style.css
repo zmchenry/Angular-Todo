@@ -1,0 +1,83 @@
+body {
+    margin: 10px 5px;
+    background: url("https://raw.githubusercontent.com/zmchenry/zmchenry.github.io/master/projects/ToDo/img/ricepaper.png") repeat;
+}
+*:focus {
+    outline: 0;
+}
+
+.angular-badge {
+    width: 15%;
+    min-width: 50px;
+    margin-bottom: 10px;
+    margin-left: 7%;
+}
+
+li {
+    list-style: none;
+}
+
+input{
+    outline: none;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.main-title {
+    font-size: 4em;
+    font-weight: bold;
+    color: #b3b3b3;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.5);
+}
+
+.todo-title {
+    padding-left: 0px;
+    margin-left: 0px;
+    font-size: 1.2em;
+}
+
+.newTodo {
+    margin-right: 25%; 
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.info .paragraph {
+    text-align: center;
+}
+
+p {
+    margin-left: -15%;
+}
+
+.destroy {
+    float: right;
+    width: 10%;
+    border: 0;
+    margin-top: 5px;
+    min-width: 50px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px dashed #333;
+}
+
+.slashed {
+    text-decoration: line-through;
+}
+
+.help-block {
+    color: #A94442;
+}
+
+.ng-dirty .ng-invalid {
+    border-color: #A94442;
+}
+
+.ng-dirty .ng-valid {
+    border-color: #00A000;
+}
